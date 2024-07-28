@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:padding="20dp"
+        android:textSize="20dp"
         android:text="Dark" />
 
     <Button
@@ -24,6 +25,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:padding="20dp"
+        android:textSize="20dp"
         android:text="Read" />
 
     <Button
@@ -32,6 +34,45 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         android:padding="20dp"
+        android:textSize="20dp"
         android:text="Click Me" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/electricLavender"
+        android:id="@+id/cardWeb"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="Web" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/electricLavender"
+        android:id="@+id/cardCamera"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Camera"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
